@@ -1,0 +1,40 @@
+[
+    {
+        "type": "Vegetables",
+        "name": "BZengan",
+        "n_review": 10,
+        "rating": 5,
+        "price": "$30",
+        "img": "images/food1.png"
+
+    }
+    ,
+    {
+        "type": "Juice",
+        "name": "schweeps Orange",
+        "n_review": 91,
+        "rating": 1,
+        "price": "$20",
+        "img": "images/schweeps.png"
+
+    }
+    ,
+    {
+        "type": "Olive",
+        "name": "Mkhll Olive",
+        "n_review": 1000,
+        "rating": 4,
+        "price": "$30",
+        "img": "images/olive.png"
+
+    },
+    {
+        "type": "Fruit",
+        "name": "Orange",
+        "n_review": 100,
+        "rating": 3,
+        "price": "$50",
+        "img": "images/orange.png"
+
+    }
+]

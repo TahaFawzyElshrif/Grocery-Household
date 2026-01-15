@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Grocery 🍓
+    </title>
+    <meta name="description" content="Grocery Store.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="additional_styles.css">
+
+</head>
+
+<body style="background-color: #FFFFFF;">
+    <header id="header">
+        <div id="row_lang">
+            <div class="row_lang_item">
+                <i class="bi bi-globe"></i>
+                English
+            </div>
+            <div class="row_lang_item">
+                <i class="bi bi-phone"></i>
+                +28 158788955
+            </div>
+            <div class="row_lang_item">
+                <i class="bi bi-envelope"></i>
+                grocery@gmail.com
+            </div>
+        </div>
+        <div id="row_nav">
+            <img src="images/logo.jpg" alt="Logo" class="img-fluid row_nav_item" style="max-height:40px;">
+            <nav class="row_nav_item navbar fs-10 justify-content-center">
+                <ul class="nav" style="justify-content: space-evenly; height: 80%">
+                    <li class="nav-item"><a class="nav-link" style="color: black; font-size: .8rem;" href="#header">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: black; font-size: .8rem;" href="#options_row_div">Options</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: black; font-size: .8rem;" href="#main_products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: black; font-size: .8rem;" href="#footer">About</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: black; font-size: .8rem;" href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="input-group  row_nav_item">
+                <input type="text" class="form-control" placeholder="🔍">
+                <button class="btn btn-primary" type="button">Search</button>
+            </div>
+
+            <button class="btn row_nav_item row_nav_item_btn_login" type="button">login</button>
+            <i class="bi bi-heart-fill row_nav_item"></i>
+
+        </div>
+    </header>
+
+    <div id="main_div_img">
+        <div id="main_div_img_left_txt">
+            <h1 style="color:#2C9594;font-family: Cochin, Georgia, Times, 'Times New Roman', serif;">Grocery & Household
+            </h1>
+            <h1 style="color:#000000;font-family: Cochin, Georgia, Times, 'Times New Roman', serif;"> Products at a
+                Click! </h1>
+            <p>Shop the freshest grocery and get it home delivered at your doormap.</p>
+            <button class="btn " type="button" style="color:#ffffff;background-color:  #F7A145;">Shop Now</button>
+
+        </div>
+
+        <div id="main_div_img_right_img">
+            <img src="images/img.png" alt="Logo" id ="img_foods" class="img-fluid row_nav_item" style="height: 45vh;">
+
+        </div>
+
+
+    </div>
+
+    <div id="options_row_div">
+        <div class="options_row_div_option">
+            <img src="images/ship.png" style="width:15%;height:100%;">
+            <div class="options_row_div_option_txt">
+                <h3>Free Shipping</h3>
+                <p>On All orders over $40000.</p>
+            </div>
+        </div>
+        <div class="options_row_div_option">
+            <img src="images/pay.png" style="width:15%;height:100%;">
+
+            <div class="options_row_div_option_txt">
+
+                <h3>Easy Pay</h3>
+                <p>Payment priceses easy.</p>
+            </div>
+        </div>
+        <div class="options_row_div_option">
+            <img src="images/support.png" style="width:15%;height:100%;">
+
+            <div class="options_row_div_option_txt">
+
+                <h3>Support 24/7</h3>
+                <p>Contact 24 hours a day.</p>
+            </div>
+        </div>
+        <div class="options_row_div_option">
+
+            <img src="images/returns.png" style="width:15%;height:100%;">
+
+            <div class="options_row_div_option_txt">
+
+                <h3>Free Returns</h3>
+                <p>Returns are free with 5 days.</p>
+            </div>
+        </div>
+    </div>
+
+    <main id="main_products">
+        <div id="row_header_main" >
+            <h6 >Our New Products</h6>
+            <menu id="row_header_main_menu">
+                <h6 class ="simple_menu_prod" tabindex="0">All Products</h6>
+                <h6 class ="simple_menu_prod" tabindex="0">Vegetables</h6>
+                <h6 class ="simple_menu_prod" tabindex="0" >Exatsic fruits</h6>
+                <h6 class ="simple_menu_prod" tabindex="0">Fresh drink</h6>
+            </menu>
+        </div>
+        <div id="grid_food">
+            
+            </div>
+        </div>
+    </main>
+
+    <footer id ="footer">
+        <h5>Developed By Dev.taha </h5>
+        <a class="text-md" href="https://dribbble.com/shots/17644579-Grocery-Food-Store-WordPress-Theme">Style</a>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

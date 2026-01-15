@@ -1,0 +1,144 @@
+#row_lang {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: .5vh 5vh;
+}
+
+#row_nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr 1fr 1fr;
+    gap: 5vh;
+    margin: .5vh 5vh;
+    max-height: 10%;
+    align-items: center;
+
+}
+
+
+
+#searchTextEnter {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#row_nav_item_btn_login {
+    font-family: 'Microsoft Uighur';
+    color: black;
+    background-color: transparent;
+}
+
+#main_div_img {
+    background-color: #E9F4F5;
+    height: 400px;
+    width: 90%;
+    margin: .5vh 5vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10% 10%;
+}
+
+#options_row_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.3);
+    margin: .5vh 8vh;
+    padding: .5vh 8vh;
+    align-items: center;
+    width: block;
+    justify-content: space-between;
+}
+
+.options_row_div_option {
+    width: block;
+    max-width: 20vw;
+
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: start;
+
+}
+
+.options_row_div_option :active {
+    border-bottom: #000;
+
+
+}
+
+#main_products {
+    margin: 20vh 8vh .5vh 8vh;
+
+}
+
+#row_header_main {
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+
+
+}
+
+#row_header_main_menu {
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+    gap: 20px
+}
+
+#grid_food {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: start;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0vh 5vh .5vh 5vh;
+}
+
+.grid_food_item {
+    display: block;
+    width: block;
+    max-width: 25vw;
+    border-radius: 3px;
+
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.3);
+    align-content: center;
+    padding: 10%;
+}
+
+.grid_food_item img {
+    width: 90%;
+    height: 70%;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #645959;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+
+}
+
+.options_row_div_option:hover{
+    border-bottom: 4px solid aquamarine;
+}
+
+.simple_menu_prod:focus, .simple_menu_prod:hover,.grid_food_item:hover{
+    border: 1px solid aquamarine;
+    display: inline-block;
+    color:aqua;
+    padding: .5%;
+}
+
+#img_foods:hover{
+height: 30vh;
+}
